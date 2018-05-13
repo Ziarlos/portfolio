@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="DMD480-1701A-01 Senior Design Project Individual Project">
+    <meta name="author" content="Bruce Wopat">
+    <title>Bruce Wopat - Contact</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <nav class="navbar navbar-default" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Edge Incorporated</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-stacked">
+                            <li><a href="index.html">Index</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="#" data-toggle="collapse" data-target="#submenu">Services  <b class="caret"></b></a>
+                                <ul class="nav collapse" id="submenu">
+                                  <li><a href="services.html#graphic_design">Graphic Design</a></li>
+                                  <li><a href="services.html#photography">Photography</a></li>
+                                  <li><a href="services.html#web_development">Web Development</a></li>
+                                  <li><a href="services.html#web_hosting">Website Hosting</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="contact.html">Contact Us!</a>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+              <main>
+                <h1>Edge Incorporated - Contact Us</h1>
+                
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin sit amet enim enim. Nunc egestas mi elit, vel congue enim pellentesque sed. Integer eu molestie dolor, et ullamcorper velit. Duis pharetra nunc ut sapien fringilla sagittis. Nam vel justo ac ex fermentum semper. Curabitur sem libero, congue in tristique vel, tempus ut ligula. Mauris interdum tempor ornare. Suspendisse sit amet ex non orci aliquam accumsan.</p>
+
+                <form class="form-horizontal" method="post">
+                  <div class="form-group">
+                    <label for="full_name" class="control-label col-xs-3">Full Name</label>
+                    <div class="col-xs-9">
+                      <input type="text" class="form-control" name="full_name" id="full_name" placeholder="John Smith">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="control-label col-xs-3">Email</label>
+                    <div class="col-xs-9">
+                      <input type="email" class="form-control" id="email" placeholder="John.Smith@example.com">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inquiry_reason" class="control-label col-xs-3">Reason for Inquiry</label>
+                    <div class="col-xs-9">
+                      <select class="form-control" name="inquiry_reason[]" id="inquiry_reason" multiple>
+                        <option value="new_website">New Website</option>
+                        <option value="redo_website">Redo An Existing Website</option>
+                        <option value="hosting">Host A Website</option>
+                        <option value="graphics">Graphic Design</option>
+                        <option value="photography">Photography</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="budget" class="control-label col-xs-3">Budget</label>
+                    <div class="col-xs-9">
+                      <select class="form-control" name="budget" id="budget">
+                        <option value="less-than-one-thousand">Less than $1,000</option>
+                        <option value="less-than-two-thousand">Less than $2,000</option>
+                        <option value="less-than-three-thousand">Less than $3,000</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-xs-offset-3 col-xs-9">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="reset" class="btn btn-warning">Reset</button>
+                    </div>
+                  </div>
+                </form>
+              </main>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <footer>
+                <p>&copy; Bruce Wopat - 2017</p>
+              </footer>
+            </div>
+          </div>
+      </div>
+  </body>
+
+  </html>

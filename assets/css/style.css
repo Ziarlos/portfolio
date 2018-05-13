@@ -1,0 +1,134 @@
+body {
+  padding-top: 70px;
+  font: 12px Verdana, "Palatino Nova", sans-serif;
+  background: url("../img/code-wallpaper-3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main, footer {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 15px;
+}
+@media (min-width: 768px) {}
+  footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar {
+  	max-width:300px;
+  	margin-right: 0;
+  	margin-left: 0;
+  }
+  .navbar-nav,
+  .navbar-nav > li,
+  .navbar-left,
+  .navbar-right,
+  .navbar-header {
+    float:none !important;
+  }
+
+  .navbar-right .dropdown-menu {
+    left:0;
+    right:auto;
+  }
+  .navbar-collapse .navbar-nav.navbar-right:last-child {
+      margin-right: 0;
+  }
+}
+
+/**
+ Image Carousel code from Bootsnipp.com
+ http://bootsnipp.com/snippets/featured/simple-responsive-carousel
+ Bootstrap 3.1.0 Snippet by lisavilleneuve
+**/
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+  min-height: 200px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 200;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
